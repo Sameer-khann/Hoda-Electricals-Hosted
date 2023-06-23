@@ -1,0 +1,707 @@
+/* .App {
+  background-color: #0425328b;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.active {
+  background-color: rgb(4,76,100);
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  color: #fb8504;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Poppines';
+}
+
+
+#logoName:hover{
+    color: rgb(4,147,210);
+
+}
+
+
+.navbar-brand:hover {
+  color: #fb8504;
+
+}
+
+
+.navbar .navbar-collapse {
+  margin-right: 20%;
+}
+
+.navbar .navbar-collapse .nav-item {
+  padding: 0% 3%;
+}
+
+.navbar .navbar-collapse .nav-item .nav-link {
+  color: white;
+  /* color: #000000; */
+  font-size: 20px;
+
+
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+
+  .navbar-brand {
+    margin-left: 0px;
+    font-weight: bold;
+    color: #fb8504;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .navbar>.containe {
+    display: block;
+    margin: 0;
+  }
+
+  .navbar .navbar-collapse .nav-item {
+    height: 30px;
+    width: 170px;
+    margin: 0px 0 0 0;
+    margin-top: 5PX;
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+    background-color: #053343;
+    border-radius: 13rem;
+  }
+
+  .navbar .navbar-collapse .nav-item .nav-link{
+    padding: 0%;
+    
+    text-align: center;
+
+  }
+
+ 
+
+  #carousel-inner #carousel-item #img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+
+/* cursole */
+
+.carousel-caption {
+  top: 0;
+  margin-top: 9rem;
+  padding: 0;
+}
+
+.carousel-caption h1{
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: bolder;
+}
+
+.carousel-caption p{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+}
+
+.carousel-inner .carousel-item .img {
+  width: 100%;
+  height: 110vh;
+}
+
+.aboutContant h4 {
+  padding: 100px 150px 20px 150px;
+  text-align: center;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  #aboutContant h4 {
+    padding: 40px 18px 40px;
+  }
+
+
+  .carousel-caption {
+    top: 0;
+    margin-top: 3rem;
+    padding: 0;
+  }
+  
+  .carousel-caption h1{
+    text-align: center;
+    margin-top: 2.8rem;
+    font-weight: bolder;
+  }
+  
+  .carousel-caption p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+
+}
+
+
+/* corsole end */
+
+
+.servise {
+  margin: 10px 20px;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 8px #2c2c2ca9;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  cursor: pointer;
+  border: none;
+  width: 22%;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  #card {
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+.imgg {
+  width: 15rem;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+@media (min-width : 300px) and (max-width:800px) {
+  #imgg {
+    width: 4rem;
+  }
+}
+
+.card:hover {
+  background-color: #248cb1af;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.con {
+  margin-top: 40px;
+  border-radius: 1rem;
+  padding: 15px 70px;
+  width: 50%;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  .con {
+    border-radius: 1rem;
+    padding: 15px 10px;
+    margin: 15px 0px;
+    width: 100%;
+  }
+
+  .con #button {
+    margin: 20px 90px;
+  }
+}
+
+.left {
+  margin-top: 40px;
+  padding: 15px 100px;
+  width: 50%;
+}
+
+
+/* contact */
+.photoC {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  .left {
+    padding: 15px 10px;
+    margin: 10px 0px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .photoC {
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+    position: relative;
+    color: white;
+  }
+}
+
+
+@media (min-width : 300px) and (max-width:600px) {
+  #projectImage {
+    height: 40vh;
+  }
+
+  #headddd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 4px 2px 4px #1b1919;
+  }
+
+}
+
+/* contact end */
+
+
+.con .form-control {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 3px 3px 8px #2c2c2ca9;
+  font-size: 20px;
+}
+
+.con .btn-primary {
+  margin: 19px 20px;
+  font-size: 20px;
+  border-radius: 8rem;
+  color: white;
+  border: none;
+  background-color: #0c81accd;
+}
+
+.con .btn-primary:hover {
+  background-color: #fb8504;
+
+}
+
+.details {
+  width: 37%;
+  margin: 35px 70px;
+  /* float: right; */
+}
+
+
+
+
+
+
+
+.carousel-item .btn-primary {
+
+  margin-top: 2rem;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 8rem;
+  color: white;
+  border: none;
+  background-color: #03ace9af;
+  font-weight: bold;
+}
+
+.carousel-item .btn-primary:hover {
+  background-color: #fb8504;
+}
+
+
+
+@media (min-width : 300px) and (max-width:600px) {
+  .carousel-item .btn-primary{
+
+    margin-top: 0px;
+   
+  }
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.centeredA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.centeredc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #1b1919;
+}
+
+.photo {
+  width: 100%;
+  height: 615px;
+  overflow: hidden;
+  color: white;
+}
+
+.photo .imgA {
+  width: 100%;
+
+}
+
+
+@media (min-width : 300px) and (max-width:600px) {
+  #photo #imgA {
+    width: 100%;
+    height: 372px;
+
+  }
+}
+
+
+/* about */
+
+.centeredA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #1b1919;
+}
+
+.photoA {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  .left {
+    padding: 15px 10px;
+    margin: 10px 0px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .photoA {
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+    position: relative;
+    color: white;
+  }
+}
+
+
+.contan {
+  margin: 70px 10px;
+  padding: 40px 80px;
+}
+
+.contan h2 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-weight: 700px;
+
+}
+
+
+.rowleft {
+  width: 50%;
+  padding: 10px 100px 10px 70px;
+}
+
+.rowright {
+  width: 50%;
+  padding: 10px 100px 10px 70px;
+}
+
+
+@media (min-width : 300px) and (max-width:600px) {
+  #projectImageA {
+    height: 40vh;
+  }
+
+  #headdddA {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 4px 2px 4px #1b1919;
+  }
+
+  .contan {
+    margin: 30px 15px;
+    padding: 0px 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400
+  }
+
+  .contan h2 {
+    font-size: 30px;
+
+  }
+
+  .rowleft {
+    width: 100%;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400
+  }
+
+  .rowleft h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .rowright {
+    width: 100%;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400
+  }
+
+  .rowright h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+}
+
+/* about end */
+
+.photoS{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.centeredS{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #1b1919;
+}
+
+
+.contanS {
+  margin: 30px 10px;
+  padding: 40px 40px;
+}
+
+.leftS{
+  width: 50%; 
+  padding: 10px 35px 0px 30px; 
+  text-align: center;
+}
+.rightS{
+  width: 50%; 
+  text-align: center;
+  padding: 10px 35px 0px 30px; 
+}
+
+.serviseRow{
+  margin: 0;
+   margin-top: 150px;
+    margin-bottom: 0px;
+}
+@media (min-width : 300px) and (max-width:600px) {
+
+  .serviseRow{
+    margin: 0;
+     margin-top: 50px;
+      margin-bottom: 20px;
+  }
+  .contanS {
+    margin: 10px 10px;
+    padding: 40px 5px;
+  }
+
+  .leftS{
+    width: 100%; 
+    padding: 0px 5px 0px 5px; 
+    text-align: center;
+  }
+  .rightS{
+    width: 100%; 
+    text-align: center;
+    padding: 0px 5px 0px 5px;  
+  }
+
+
+  .photoS{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    color: white;
+  }
+
+  #projectImageS {
+    height: 40vh;
+  }
+
+  #headdddS {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 4px 2px 4px #1b1919;
+  }
+}
+
+
+/* project */
+
+
+.photoP{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.centeredP{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #1b1919;
+}
+
+@media (min-width : 300px) and (max-width:600px) {
+  .photoP{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    color: white;
+  }
+
+
+  #propic{
+    height: 40vh;
+  }
+
+  #headdddP {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 4px 2px 4px #1b1919;
+  }
+
+
+  
+  .tbody .table thead tr th {
+    background-color: #fb8504;
+    width: 200px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .tbody .table tbody tr td {
+    text-align: center;
+    border: none;
+    width: 200px;
+    font-size: 15px;
+  }
+}
+
+
+
+.tbody .table thead tr th {
+  background-color: #fb8504;
+  width: 200px;
+  border: none;
+  text-align: center;
+  /* font-size: 25px; */
+}
+
+.tbody .table tbody tr td {
+  text-align: center;
+  border: none;
+  width: 200px;
+  /* font-size: 20px; */
+}
+
+/* project end */
+
+/* footer start */
+
+.footer {
+  background-color:rgb(36 36 36);
+  color:white;
+  font-size:20px;
+  width:100% ;
+   padding:3px 60px;
+
+}
+
+/* footer end */
