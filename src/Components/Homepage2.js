@@ -9,7 +9,8 @@ import { BsFacebook } from "react-icons/bs";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import { AiFillTwitterCircle } from "react-icons/ai";
 
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
+import { Fade } from 'react-awesome-reveal';
 
 export default function Homepage2() {
   return (
