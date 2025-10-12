@@ -16,7 +16,7 @@ export default function Contact() {
           id="projectImage"
           src={img7}
           className="d-block w-100"
-          alt="Photo"
+          alt="Contact"
         />
         <div className="centeredc" id="headddd">
           CONTACT US

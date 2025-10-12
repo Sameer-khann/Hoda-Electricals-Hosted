@@ -11,7 +11,7 @@ export default function Servises() {
         <>
             <Navbar />
             <div className="photoS" >
-                <img src={img4} className="d-block w-100" id='projectImageS' alt="Photo" />
+                <img src={img4} className="d-block w-100" id='projectImageS' alt="Service" />
                 <div className="centeredS" id='headdddS'>SERVICES</div>
             </div>
 
@@ -51,7 +51,7 @@ export default function Servises() {
                             <br />
                             • <span style={{ fontWeight: "bold" }}>Call escalation matrix</span> to ensure that breakdown / service calls are escalated to all the levels in case of</div>
                         <br />
-                        <img src={img5} alt="photo" style={{ width: "100%", height: "25%" }} />
+                        <img src={img5} alt="Operation" style={{ width: "100%", height: "25%" }} />
                         <br /><br />
                         <div>•<span style={{ fontWeight: "bold" }}>Service Level Agreements </span>(SLA) to ensure our commitment is made transparent on paper.
                             <br />
@@ -59,7 +59,7 @@ export default function Servises() {
                             <br />
                             • <span style={{ fontWeight: "bold" }}>Latest gadgets / instruments </span>are used by our engineers to measure temperature, humidity, air velocity and other electrical</div>
                         <br />
-                        <img src={img6} alt="photo" style={{ width: "100%", height: "25%" }} />
+                        <img src={img6} alt="Maintenance" style={{ width: "100%", height: "25%" }} />
                         <br /><br />
                     </div>
                 </div>

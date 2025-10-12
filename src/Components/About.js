@@ -8,7 +8,7 @@ export default function About() {
         <>
         <Navbar/>
             <div className="photoA" >
-                <img src={img4}  className=" imgA d-block w-100" id='projectImageA' alt="Photo" />
+                <img src={img4}  className=" imgA d-block w-100" id='projectImageA' alt="About" />
                 <div className="centeredA" id='headdddA'>WHO WE ARE?</div>
             </div>
             <div className="contan" >

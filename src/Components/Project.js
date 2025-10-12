@@ -11,7 +11,7 @@ export default function Project() {
     <>
       <Navbar />
       <div className="photoP" >
-                <img src={image1} className="d-block w-100" alt="Photo" id="propic"/>
+                <img src={image1} className="d-block w-100" alt="Projects" id="propic"/>
                 <div className="centeredP" id="headdddP" >OUR WORK</div>
             </div>
       
