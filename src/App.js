@@ -2,9 +2,7 @@ import './App.css';
 import About from './Components/About';
 import Carousel from './Components/Carousel';
 import Contact from './Components/Contact';
-import Footer from './Components/Footer';
 // import Homepage from './Components/Homepage';
-import Navbar from './Components/Navbar';
 import Servises from './Components/Servises';
 import Project from './Components/Project';
 
