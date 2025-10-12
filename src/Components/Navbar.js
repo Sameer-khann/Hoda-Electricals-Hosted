@@ -50,7 +50,7 @@ export default function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link active" to="/about">
-                    About
+                    Aboutttt
                   </Link>
                 </li>
                 <li className="nav-item">
