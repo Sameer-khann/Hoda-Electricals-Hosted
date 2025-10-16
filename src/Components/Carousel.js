@@ -56,8 +56,7 @@ export default function Carousel() {
   </div>
 </div>
 
-<div className='aboutContant' id='aboutContant'><h4>We are into sales, Erection and Commissioning of Centralized Air-conditioning systems having clientage in NCR and all India.
-Providing maintenance & services at various sites. Also undertaking direct jobs from clients related to erection, commissioning, maintenance and operation of AC equipments.</h4></div>
+<div className='aboutContant' id='aboutContant'><h4>We specialize in the sales, erection, and commissioning of centralized air-conditioning systems, serving clients across NCR and India. We also provide maintenance and services at various sites and undertake direct projects from clients related to the erection, commissioning, maintenance, and operation of AC equipment.</h4></div>
 <ServicePageBox/>
 <Current/>
 
